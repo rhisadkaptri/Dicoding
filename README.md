@@ -14,7 +14,7 @@ Tuliskan cakupan proyek yang akan dikerjakan.
 
 ### Persiapan
 
-Sumber data: ....
+Sumber data: (https://raw.githubusercontent.com/rhisadkaptri/Dicoding/main/employee_data.csv)
 
 Setup environment:
 
