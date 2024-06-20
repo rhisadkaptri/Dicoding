@@ -26,7 +26,23 @@ Sumber data: https://raw.githubusercontent.com/rhisadkaptri/Dicoding/main/employ
 Setup environment:
 
 ```
-
+1. Buka File Notebook di Visual Studio Code
+2. Buka Terminal di Visual Studio Code
+4. Aktifkan Virtual Environment 
+Aktifkan virtual environment yang telah diberikan.
+Pada Windows:
+.\env\Scripts\activate
+Pada macOS dan Linux:
+source env/bin/activate
+5. Instal Paket dari requirements.txt
+Di terminal Visual Studio Code, instal semua paket yang terdaftar dalam file requirements.txt dengan menggunakan pip:
+`pip install -r requirements.txt`
+Perintah ini akan menginstal semua paket Python yang diperlukan beserta versi yang sesuai ke dalam environment.
+6. Verifikasi Instalasi
+Setelah proses instalasi selesai, pastikan semua paket yang terdaftar di requirements.txt telah terinstal dengan benar dengan menjalankan:
+pip list
+Ini untuk melihat daftar paket yang terinstal berserta versinya.
+7. Selesai
 ```
 
 ## Business Dashboard
