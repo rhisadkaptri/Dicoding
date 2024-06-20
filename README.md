@@ -29,7 +29,10 @@ Setup environment:
 
 ## Business Dashboard
 
-Jelaskan tentang business dashboard yang telah dibuat. Jika ada, sertakan juga link untuk mengakses dashboard tersebut.
+Dashboard yang saya buat berisikan analisis mengenai `Attrition Employee`
+
+![rhisadkaptri-dashboard](https://github.com/rhisadkaptri/Dicoding/assets/76622802/7a929536-5be6-4b17-a5ae-8ecd1677aba5)
+(https://public.tableau.com/views/DashboardAttrition_17187789565080/Dashboard1?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
 
 ## Conclusion
 
