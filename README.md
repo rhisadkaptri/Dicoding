@@ -31,8 +31,7 @@ Di terminal, Anda dapat membuat virtual environment (venv) menggunakan perintah 
 ```
 python -m venv env
 ```
-4. Setelah itu aktifkan Virtual Environment 
-Aktifkan virtual environment yang telah diberikan.
+4. Setelah itu aktifkan Virtual Environment. Aktifkan virtual environment yang telah diberikan.
 Pada Windows:
 ```
 .\env\Scripts\activate
@@ -64,8 +63,8 @@ Diterminal, jalankan perintah berikut:
 python prediction.py
 ```
 Yang merupakan model yang sudah disimpan sebelumnya.
-5. Selanjutnya Inputkan beberapa feature yang berpengaruh terhadap prediksi ini
-6. Kemudian jika sudah di inputkan semua feature nya, prediksi akan keluar, apakah employee tersebut Attrition atau tidak
+4. Selanjutnya Inputkan beberapa feature yang berpengaruh terhadap prediksi ini
+5. Kemudian jika sudah di inputkan semua feature nya, prediksi akan keluar, apakah employee tersebut Attrition atau tidak
 Dengan Keterangan Tambahan:
 Inputkan Feature dengan Nilai Integer semuanya
 Jika Attrition = 0, maka Employee tersebut diprediksi Tidak Attrition
