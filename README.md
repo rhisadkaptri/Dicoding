@@ -1,4 +1,4 @@
-# Proyek Akhir: Menyelesaikan Permasalahan Perusahaan Edutech
+# Proyek Akhir: Menyelesaikan Permasalahan Perusahaan Jaya Jaya Maju
 
 ## Business Understanding
 
@@ -24,39 +24,48 @@ Tingkat perputaran karyawan yang melebihi 10% menandakan bahwa banyak karyawan y
 Sumber data: https://raw.githubusercontent.com/rhisadkaptri/Dicoding/main/employee_data.csv
 
 Setup environment:
-```
 1. Buka Folder submission di Visual Studio Code
 2. Klik File Notebook dengan ekstensi .ipynb
 3. Buka terminal di VSCode dengan menekan Ctrl + Backtick (biasanya tombol di sebelah kiri tombol 1).
 Di terminal, Anda dapat membuat virtual environment (venv) menggunakan perintah berikut:
-`python -m venv env`
+```
+python -m venv env
+```
 4. Setelah itu aktifkan Virtual Environment 
 Aktifkan virtual environment yang telah diberikan.
 Pada Windows:
-`.\env\Scripts\activate`
-Pada macOS dan Linux:
-`source env/bin/activate`
-5. Instal Paket dari requirements.txt
-Di terminal Visual Studio Code, instal semua paket yang terdaftar dalam file requirements.txt dengan menggunakan pip:
-`pip install -r requirements.txt`
-Perintah ini akan menginstal semua paket Python yang diperlukan beserta versi yang sesuai ke dalam environment.
-6. Verifikasi Instalasi
-Setelah proses instalasi selesai, pastikan semua paket yang terdaftar di requirements.txt telah terinstal dengan benar dengan menjalankan:
-pip list
-Ini untuk melihat daftar paket yang terinstal berserta versinya.
-7. Selesai
 ```
+.\env\Scripts\activate
+```
+Pada macOS dan Linux:
+```
+source env/bin/activate
+```
+6. Instal Paket dari requirements.txt
+Di terminal Visual Studio Code, instal semua paket yang terdaftar dalam file requirements.txt dengan menggunakan pip:
+```
+pip install -r requirements.txt
+```
+Perintah ini akan menginstal semua paket Python yang diperlukan beserta versi yang sesuai ke dalam environment.
+8. Verifikasi Instalasi
+Setelah proses instalasi selesai, pastikan semua paket yang terdaftar di requirements.txt telah terinstal dengan benar dengan menjalankan:
+```
+pip list
+```
+Ini untuk melihat daftar paket yang terinstal berserta versinya.
+9. Selesai
 
 Cara Menjalankan Model Prediction:
-```
 1. Jalankan langkah-langkah Setup Environment diatas
 2. Setelah sudah dijalankan semuanya, selanjutnya bisa melakukan uji model machine learning yang telah dibuat
 3. Buka terminal di VSCode dengan menekan Ctrl + Backtick (biasanya tombol di sebelah kiri tombol 1).
 Diterminal, jalankan perintah berikut:
-`python prediction.py`
+```
+python prediction.py
+```
 Yang merupakan model yang sudah disimpan sebelumnya.
-4. Selanjutnya Inputkan beberapa feature yang berpengaruh terhadap prediksi ini
-5. Kemudian jika sudah di inputkan semua feature nya, prediksi akan keluar, apakah employee tersebut Attrition atau tidak
+5. Selanjutnya Inputkan beberapa feature yang berpengaruh terhadap prediksi ini
+6. Kemudian jika sudah di inputkan semua feature nya, prediksi akan keluar, apakah employee tersebut Attrition atau tidak
 Dengan Keterangan Tambahan:
 Inputkan Feature dengan Nilai Integer semuanya
 Jika Attrition = 0, maka Employee tersebut diprediksi Tidak Attrition
