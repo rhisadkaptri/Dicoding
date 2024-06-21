@@ -41,34 +41,30 @@ Pada macOS dan Linux:
 source env/bin/activate
 ```
 5. Instal Paket dari requirements.txt
-Di terminal Visual Studio Code, instal semua paket yang terdaftar dalam file requirements.txt dengan menggunakan pip:
+Di terminal Visual Studio Code, instal semua paket yang terdaftar dalam file requirements.txt. Perintah ini akan menginstal semua paket Python yang diperlukan beserta versi yang sesuai ke dalam environment.dengan menggunakan pip:
 ```
 pip install -r requirements.txt
 ```
-Perintah ini akan menginstal semua paket Python yang diperlukan beserta versi yang sesuai ke dalam environment.
 6. Verifikasi Instalasi
-Setelah proses instalasi selesai, pastikan semua paket yang terdaftar di requirements.txt telah terinstal dengan benar dengan menjalankan:
+Setelah proses instalasi selesai, pastikan semua paket yang terdaftar di requirements.txt telah terinstal dengan benar. Ini untuk melihat daftar paket yang terinstal berserta versinya, dengan menjalankan:
 ```
 pip list
 ```
-Ini untuk melihat daftar paket yang terinstal berserta versinya.
 7. Selesai
 
 #### Cara Menjalankan Model Prediction:
 1. Jalankan langkah-langkah Setup Environment diatas
 2. Setelah sudah dijalankan semuanya, selanjutnya bisa melakukan uji model machine learning yang telah dibuat
-3. Buka terminal di VSCode dengan menekan Ctrl + Backtick (biasanya tombol di sebelah kiri tombol 1).
-Diterminal, jalankan perintah berikut:
+3. Buka terminal di VSCode dengan menekan Ctrl + Backtick (biasanya tombol di sebelah kiri tombol 1). Yang merupakan model yang sudah disimpan sebelumnya. Diterminal, jalankan perintah berikut:
 ```
 python prediction.py
 ```
-Yang merupakan model yang sudah disimpan sebelumnya.
 4. Selanjutnya Inputkan beberapa feature yang berpengaruh terhadap prediksi ini
 5. Kemudian jika sudah di inputkan semua feature nya, prediksi akan keluar, apakah employee tersebut Attrition atau tidak
-Dengan Keterangan Tambahan:
-Inputkan Feature dengan Nilai Integer semuanya
-Jika Attrition = 0, maka Employee tersebut diprediksi Tidak Attrition
-Sedangkan Jika Attrition = 1, maka Employee tersebut diprediksi Attrition
+   Dengan Keterangan Tambahan:
+   Inputkan Feature dengan Nilai Integer semuanya
+   Jika Attrition = 0, maka Employee tersebut diprediksi Tidak Attrition
+   Sedangkan Jika Attrition = 1, maka Employee tersebut diprediksi Attrition
 
 ## Business Dashboard
 
