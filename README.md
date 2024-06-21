@@ -41,19 +41,19 @@ Pada macOS dan Linux:
 ```
 source env/bin/activate
 ```
-6. Instal Paket dari requirements.txt
+5. Instal Paket dari requirements.txt
 Di terminal Visual Studio Code, instal semua paket yang terdaftar dalam file requirements.txt dengan menggunakan pip:
 ```
 pip install -r requirements.txt
 ```
 Perintah ini akan menginstal semua paket Python yang diperlukan beserta versi yang sesuai ke dalam environment.
-8. Verifikasi Instalasi
+6. Verifikasi Instalasi
 Setelah proses instalasi selesai, pastikan semua paket yang terdaftar di requirements.txt telah terinstal dengan benar dengan menjalankan:
 ```
 pip list
 ```
 Ini untuk melihat daftar paket yang terinstal berserta versinya.
-9. Selesai
+7. Selesai
 
 Cara Menjalankan Model Prediction:
 1. Jalankan langkah-langkah Setup Environment diatas
