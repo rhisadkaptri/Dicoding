@@ -25,13 +25,12 @@ Sumber data: https://raw.githubusercontent.com/rhisadkaptri/Dicoding/main/employ
 
 #### Setup environment:
 1. Buka Folder submission di Visual Studio Code
-2. Klik File Notebook dengan ekstensi .ipynb
-3. Buka terminal di VSCode dengan menekan Ctrl + Backtick (biasanya tombol di sebelah kiri tombol 1).
+2. Buka terminal di VSCode dengan menekan Ctrl + Backtick (biasanya tombol di sebelah kiri tombol 1).
 Di terminal, Anda dapat membuat virtual environment (venv) menggunakan perintah berikut:
 ```
 python -m venv env
 ```
-4. Setelah itu aktifkan Virtual Environment. Aktifkan virtual environment yang telah diberikan.
+3. Setelah itu aktifkan Virtual Environment. Aktifkan virtual environment yang telah diberikan.
    Pada Windows:
 ```
 .\env\Scripts\activate
@@ -40,17 +39,17 @@ python -m venv env
 ```
 source env/bin/activate
 ```
-5. Instal Paket dari requirements.txt
+4. Instal Paket dari requirements.txt
 Di terminal Visual Studio Code, instal semua paket yang terdaftar dalam file requirements.txt. Perintah ini akan menginstal semua paket Python yang diperlukan beserta versi yang sesuai ke dalam environment.dengan menggunakan pip:
 ```
 pip install -r requirements.txt
 ```
-6. Verifikasi Instalasi
+5. Verifikasi Instalasi
 Setelah proses instalasi selesai, pastikan semua paket yang terdaftar di requirements.txt telah terinstal dengan benar. Ini untuk melihat daftar paket yang terinstal berserta versinya, dengan menjalankan:
 ```
 pip list
 ```
-7. Selesai
+6. Selesai
 
 #### Cara Menjalankan Model Prediction:
 1. Jalankan langkah-langkah Setup Environment diatas
@@ -59,11 +58,21 @@ pip list
 ```
 python prediction.py
 ```
-4. Selanjutnya Inputkan beberapa feature yang berpengaruh terhadap prediksi ini
-5. Kemudian jika sudah di inputkan semua feature nya, prediksi akan keluar, apakah employee tersebut Attrition atau tidak. Dengan Keterangan Tambahan:
+4. Selanjutnya Inputkan 10 feature yang paling berpengaruh terhadap prediksi ini, yaitu:
+   - OverTime (Yes:1, No:0)
+   - MaritalStatus (Divorced:0, Married:1, Single:2)
+   - TotalWorkingYears
+   - Age
+   - JobLevel (1-5)
+   - StockOptionLevel (0-3)
+   - MonthlyIncome
+   - YearsInCurrentRole (0-15)
+   - YearsWithCurrManager (0-14)
+   - JobInvolvement (1-4)
+6. Kemudian jika sudah di inputkan semua feature nya, prediksi akan keluar, apakah employee tersebut Attrition atau tidak. Dengan Keterangan Tambahan:
    - Inputkan Feature dengan Nilai Integer semuanya
    - Jika Attrition = 0, maka Employee tersebut diprediksi Tidak Attrition
-   - Sedangkan Jika Attrition = 1, maka Employee tersebut diprediksi Attrition
+   - Jika Attrition = 1, maka Employee tersebut diprediksi Attrition
 
 ## Business Dashboard
 
