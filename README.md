@@ -23,7 +23,7 @@ Tingkat perputaran karyawan yang melebihi 10% menandakan bahwa banyak karyawan y
 
 Sumber data: https://raw.githubusercontent.com/rhisadkaptri/Dicoding/main/employee_data.csv
 
-Setup environment:
+#### Setup environment:
 1. Buka Folder submission di Visual Studio Code
 2. Klik File Notebook dengan ekstensi .ipynb
 3. Buka terminal di VSCode dengan menekan Ctrl + Backtick (biasanya tombol di sebelah kiri tombol 1).
@@ -55,7 +55,7 @@ pip list
 Ini untuk melihat daftar paket yang terinstal berserta versinya.
 7. Selesai
 
-Cara Menjalankan Model Prediction:
+#### Cara Menjalankan Model Prediction:
 1. Jalankan langkah-langkah Setup Environment diatas
 2. Setelah sudah dijalankan semuanya, selanjutnya bisa melakukan uji model machine learning yang telah dibuat
 3. Buka terminal di VSCode dengan menekan Ctrl + Backtick (biasanya tombol di sebelah kiri tombol 1).
@@ -70,7 +70,6 @@ Dengan Keterangan Tambahan:
 Inputkan Feature dengan Nilai Integer semuanya
 Jika Attrition = 0, maka Employee tersebut diprediksi Tidak Attrition
 Sedangkan Jika Attrition = 1, maka Employee tersebut diprediksi Attrition
-```
 
 ## Business Dashboard
 
